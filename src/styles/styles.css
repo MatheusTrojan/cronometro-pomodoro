@@ -5,28 +5,34 @@
     --fonte-principal: sans-serif;
 }
 
-body {
+.container__geral {
+    align-items: center;
     background: var(--cor-principal);
     color: var(--branco);
+    display: flex;
+    flex-direction: column;
     font-family: var(--fonte-principal);
-    text-align: center;
+    justify-content: center;
 }
 
 .titulo__site {
     font-size: 1.25em;
-    margin: 1em 0 1em 5vw ;
-    text-align: left;
+    margin: 1em 0 1em 5vw;
+    align-self: flex-start;
 }
 
 .cronometro__container {
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
-    width: 80vw;
+    display: flex;
+    flex-direction: column;
     padding: 2rem 0;
     margin: 0 5vw;
+    width: 80vw;
 }
 
-.btn-começar {
+.btn-comecar {
     background-color: var(--branco);
     border: none;
     border-bottom: 0.5rem solid #AAAAAA;
