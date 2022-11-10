@@ -3,7 +3,8 @@
 ### Tarefas:
 
 [X] - Criar um cronometro de 25 minutos
-[ ] - Criar uma interface
+[X] - Criar o visual do ativador do cronômetro
+[ ] - Conectar o ativador do cronômetro com a função de criar cronômetro
 [ ] - Mapear o tempo e 25min depois de começar precisamos dar um aviso que terminou
 [ ] - Exibir visualmente o tempo restante
 [ ] - Ter uma outra ativação do cronometro, com 5min, para o intervalo
